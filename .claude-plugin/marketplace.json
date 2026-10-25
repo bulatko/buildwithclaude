@@ -4361,6 +4361,32 @@
         "path": "plugins/skill-skill",
         "sha": "d1e1d984a2d05187a1800e81e374d571ec83b4d8"
       }
+    },
+    {
+      "name": "smcreader",
+      "description": "SMC Reader (Save My Context Reader): a PostToolUse hook puts large Bash and WebFetch outputs on disk behind a short pointer, and an MCP server lets the model pull exact lines (reader_peek) or ask a Haiku reader (reader_ask), so most of a big output never enters the context.",
+      "version": "0.1.4",
+      "author": {
+        "name": "bulatko",
+        "url": "https://github.com/bulatko"
+      },
+      "homepage": "https://github.com/bulatko/SMCReader",
+      "repository": "https://github.com/bulatko/SMCReader",
+      "license": "MIT",
+      "keywords": [
+        "context",
+        "tokens",
+        "tool-output",
+        "hooks",
+        "mcp",
+        "claude-code"
+      ],
+      "category": "productivity",
+      "source": {
+        "source": "github",
+        "repo": "bulatko/SMCReader",
+        "sha": "cd780b8851ccbe49345c112b4380918294a12a31"
+      }
     }
   ]
 }
